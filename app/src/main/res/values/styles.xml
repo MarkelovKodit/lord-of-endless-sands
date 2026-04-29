@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Стиль для кнопок выбора действий -->
+    <style name="GameButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:backgroundTint">#6B4E3A</item>
+        <item name="android:textColor">#F5F0E6</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Стиль для верхних кнопок (Статистика, Рюкзак) -->
+    <style name="TopBarButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">#6B4E3A</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+</resources>
