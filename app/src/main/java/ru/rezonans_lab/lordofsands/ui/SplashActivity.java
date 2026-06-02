@@ -6,6 +6,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ru.rezonans_lab.lordofsands.R;
+import ru.rezonans_lab.lordofsands.domain.Book;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -19,9 +20,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Передаём данные в MainActivity
                 Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-//                intent.putExtra("player_name", "Странник");
 //                intent.putExtra("player_level", 1);//TODO добавить меню загрузки игры
                 startActivity(intent);
                 finish(); // закрываем SplashActivity

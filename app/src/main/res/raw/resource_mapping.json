@@ -1,0 +1,9 @@
+[
+  {"chapterId": 0.1, "image": "chapter_0_1"},
+  {"chapterId": 0.2, "image": "chapter_0_2"},
+  {"chapterId": 0.3, "image": "chapter_0_3"},
+  {"chapterId": 0.4, "image": "chapter_0_4"},
+  {"chapterId": 1, "image": "chapter_1"},
+  {"chapterId": 89, "image": "chapter_89"},
+  {"chapterId": 230, "image": "chapter_230"},
+]
